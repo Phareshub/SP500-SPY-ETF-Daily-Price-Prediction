@@ -44,7 +44,7 @@ After experimentation with the BoW model and word embedding, I chose to use Vade
 
 ## ARIMA as a Feature
 
-Using a simple Scikit Learn ARIMA model provides, a good prediction of next day stock price. It won’t be enough to turn a profit as a trader because it is missing crucial news information but I am going to use it as a feature 
+Autoregressive Integrated Moving Average, or ARIMA, is one of the most widely used forecasting methods for univariate time series data forecasting. In this project we are facing a multivariate model but using a simple Scikit Learn ARIMA model provides, a good prediction of next day stock price. It won’t be enough to turn a profit as a trader because it is missing crucial news information but I am going to use it as a feature.
 
 ![](images/arimagraph.png)
 
